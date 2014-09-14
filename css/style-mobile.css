@@ -59,7 +59,7 @@ ul.actions.vertical li {
 /* Header */
 #header {
   background-image: url("images/top-1280.svg"), url("../images/header.jpg");
-  background-size: 1280px 184px,						auto,							cover;
+  background-size: 1280px 184px,				cover;
   padding: 3em 0 7em 0; }
   #header:before {
     height: calc(100% - 20px); }

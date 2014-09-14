@@ -61,9 +61,9 @@
 /* Header */
 
 	#header {
-		background-attachment:		scroll,							scroll,							scroll;
+		background-attachment:		scroll,							scroll;
 		background-image:			url('images/top-1600.svg'),		url('../images/header.jpg');
-		background-size:			1600px 230px,					auto,							cover;
+		background-size:			1600px 230px,					cover;
 		padding: 15em 0 15em 0;
 
 		&:before {
