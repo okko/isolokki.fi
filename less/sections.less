@@ -1,0 +1,241 @@
+// -------------------------------------------------------------------------
+// COMMENTS
+// -------------------------------------------------------------------------
+
+// This sheet: Styling for layout sections like the header, nav, main body, and footer.
+
+// -------------------------------------------------------------------------
+// HEADERS 
+// -------------------------------------------------------------------------
+
+#main-header {
+    padding: 2em 0 2em 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0 0 1px rgba(0,0,0,.05), 0 1px 2px rgba(0,0,0,.3);
+    color: white;
+    position: relative;
+    background: #000;
+}
+
+#main-header .container {
+    position: relative;
+    z-index: 2;
+}
+
+#main-header:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(../images/header.jpg) center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main-header h1 {
+    margin: .9em 0 .5em 0;
+    letter-spacing: 8px;
+}
+
+#main-header p {
+    font-weight: 700;
+}
+
+header {
+    text-align: center;
+}
+
+.body-header {
+    margin:0 0 4em 0;
+}
+
+// -------------------------------------------------------------------------
+// BOTH CALLS TO ACTION 
+// -------------------------------------------------------------------------
+
+.call-to-action {
+    background: #EDEFEE;
+    padding: 1em 0 1em 0;
+    border-bottom: 1px solid #ddd;
+    color: #000;
+}
+
+.cta-container {
+    width: 90%;
+	max-width: 600px;
+	margin: auto;
+}
+
+.call-to-action p {
+    float: left;
+}
+
+.call-to-action p.buttons {
+    float: right;
+}
+
+.cta-2 {
+    border-bottom: none;
+}
+
+// -------------------------------------------------------------------------
+// LOCATION SECTION 
+// -------------------------------------------------------------------------
+
+#location {
+    text-align: center;
+    padding: 0;
+    position: relative;
+    color: #000;
+}
+
+#location .container {
+    position: relative;
+    z-index: 2;
+}
+
+#location-disabled:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(../images/brysselinkatu.jpg) center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#location img {
+    margin: 5em 0 0 0;
+    width: 80%;
+}
+
+// -------------------------------------------------------------------------
+// SUMMARY SECTION 
+// -------------------------------------------------------------------------
+
+#summary {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    padding: 4em 0 6em 0;
+    color: white;
+    box-shadow: 0 1px 2px rgba(0,0,0,.25);
+    text-shadow: 0 0 1px rgba(0,0,0,.05), 0 1px 2px rgba(0,0,0,.3);
+    background: #ccc;
+}
+
+#summary .container {
+    position: relative;
+    z-index: 2;
+}
+
+#summary:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(../images/sisapiha.jpg) center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+#summary p {
+    margin: 0 0 2.7em 0;
+}
+
+#summary a, .slider a {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+#summary .btn, .slider .btn {
+    background: transparent;
+    border: 2px solid #FCFCFC;
+    -webkit-transition: background-color .2s ease-out;
+    -webkit-transition-property: background-color;
+    -webkit-transition-duration: .2s;
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-delay: initial;
+    -moz-transition: background-color .2s ease-out;
+    -o-transition: background-color .2s ease-out;
+    -ms-transition: background-color .2s ease-out;
+    transition: background-color .2s ease-out;
+    transition-property: background-color;
+    transition-duration: .2s;
+    transition-timing-function: ease-out;
+    transition-delay: initial;
+}
+
+#summary .btn:hover, .slider .btn:hover {
+    background: rgba(255,255,255,.2);
+    color: white;
+}
+
+// -------------------------------------------------------------------------
+// LIST SECTION
+// -------------------------------------------------------------------------
+
+#list {
+    padding: 4em 0 4em 0;
+}
+
+#list i {
+    position: absolute;
+}
+
+#list h3 {
+    margin: 0 0 20px 70px;
+}
+
+#list article p {
+    margin: 0 0 0 70px;
+}
+
+.list-row {
+    .row(12);
+    margin: 3em 0 3em 0;
+    padding: 0 0 3em 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.list-row:last-child {
+    border-bottom: 0;
+    padding:0;
+}
+
+.list-item {
+    .column(6,12);
+}
+
+hr {
+    color: #ddd;
+}
+
+// -------------------------------------------------------------------------
+// FOOTER 
+// -------------------------------------------------------------------------
+
+footer {
+    padding: 3em 0 3em 0;
+    height: 25px;
+    color: #000;
+}
+
+#footer-text {
+    float: right;
+}
+
+#footer-text p {
+    margin: 0;
+}
